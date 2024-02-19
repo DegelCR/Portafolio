@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="containerPrincipal">
+    <div class="container">
         <div class="encriptar">
-            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder = "Ingresa el texto aqui"></textarea>
         </div>
         <div class="terminos">
             <p>Solo letras minusculas y sin acentos.</p>
@@ -17,16 +17,16 @@
             <button class="btn-encriptar" type="button" onclick="encriptar()">
                 Encriptar
              </button>
-             <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()"/>
+             <input type="button" class="btn-desencriptar" value="desencriptar" onclick="desencriptar()"/>
         </div>
     
 
     <div class="encriptado">
-        <img src="" alt="" id="muñeco">
+        <img src="./img/Muñeco.png" alt="" id="muñeco">
         <div class="mensaje-encriptado" id="mensaje-encriptado">
-            <h2 id="titulo">Ningun mensaje encontrado</h2>
-            <p>Ingresa el texto que deseas encriptar o desencriptar</p>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+            <h2 id="tituloMensaje">Ningun mensaje fue encontrado</h2>
+            <p class="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+       <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->   
         </div>
     </div>
 </div>
