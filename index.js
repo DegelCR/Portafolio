@@ -42,7 +42,6 @@ function encriptar() {
         tituloMensaje.textContent = "Texto desencriptado con éxito";
         parrafo.textContent = "";
         muñeco.src = "./img/desencriptado.jpg";
-        alert("prueba!!")
       } else {
         muñeco.src = "./img/muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
